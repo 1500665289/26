@@ -1,0 +1,525 @@
+<BPSuperPartDefs><List>
+	<Def Name="SuperPart_SuperHuman_1"><!--测试秘体-->
+		<Prefix>不灭</Prefix>
+		<Suffix>道体</Suffix>
+		<Desc>不垢不净，不生不灭，肉体成圣，万劫不磨</Desc>
+		<EquptAdvise>Defense</EquptAdvise>
+		<AtkAni>TXshangjiquan</AtkAni>
+		<DefAni>TXshenqufangyu</DefAni>
+		<AtkEffect>Effect/gsq/Prefab/tixiu/fx_Rupgouquan01</AtkEffect>
+		<DefEffect>Effect/gsq/Prefab/tixiu/fx_FYpimao01</DefEffect>
+		<Parts>	
+			<li Name="LeftPostbrachium">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>		
+			<li Name="LeftForearm">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>			
+			<li Name="RightPostbrachium">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>	
+			<li Name="RightForearm">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>	
+			<li Name="LeftThigh">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftCrus">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightThigh">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightCrus">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="Loin">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+
+			<li Name="LeftShoulder">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightShoulder">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="Dorsum">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="Belly">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftFoot">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightFoot">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="Chest">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="HeadFlesh">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="Hips">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Flesh" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+		</Parts>
+		
+		<Levels>
+			<li>
+				<Title>第一重</Title>
+				<Desc>少量提高防御能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Flesh_LV1</Modifier>
+				<SuperPartProperties>
+					<li Name="DefPower" BAddV="63"/>
+					<li Name="DefRate" AddV="0.06"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第二重</Title>
+				<Desc>中量提高防御能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Flesh_LV2</Modifier>
+				<SuperPartProperties>
+					<li Name="DefPower" BAddV="250"/>
+					<li Name="DefRate" AddV="0.13"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第三重</Title>
+				<Desc>大量提高防御能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Flesh_LV3</Modifier>
+				<SuperPartProperties>
+					<li Name="DefPower" BAddV="2000"/>
+					<li Name="DefRate" AddV="0.25"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第四重</Title>
+				<Desc>巨量提高防御能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Flesh_LV4</Modifier>
+				<SuperPartProperties>
+					<li Name="DefPower" BAddV="32000"/>
+					<li Name="DefRate" AddV="0.5"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第五重</Title>
+				<Desc>海量提高防御能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Flesh_LV5</Modifier>
+				<SuperPartProperties>
+					<li Name="DefPower" BAddV="1024000"/>
+					<li Name="DefRate" AddV="1.0"/>
+				</SuperPartProperties>
+			</li>
+		</Levels>
+	</Def>	
+	
+	<Def Name="SuperPart_SuperHuman_2"><!--测试秘体-->
+		<Prefix>金刚琉璃</Prefix>
+		<Suffix>骨</Suffix>
+		<Desc>坚似金刚，状若琉璃，翻山蹈海，力大无穷</Desc>
+		<EquptAdvise>Attack</EquptAdvise>
+		<AtkAni>TXshangjiquan</AtkAni>
+		<DefAni>TXshenqufangyu</DefAni>
+		<AtkEffect>Effect/gsq/Prefab/tixiu/fx_Rupgouquan01</AtkEffect>
+		<DefEffect>Effect/gsq/Prefab/tixiu/fx_FYpimao01</DefEffect>
+		<Parts>
+			<li Name="LeftHumerus">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>	
+			<li Name="LeftRadiusAndUlna">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>	
+			<li Name="RightHumerus">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>	
+			<li Name="RightRadiusAndUlna">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>	
+			<li Name="LeftThighbone">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftTibia">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightThighbone">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightTibia">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="Pelvis">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="Spine">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Spine" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Skull">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftMetacarpal">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightMetacarpal">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftScapula">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightScapula">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftRibs1">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightRibs1">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftMetatarsus">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightMetatarsus">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftThumb">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftForeFinger">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftMiddleFinger">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftRingFinger">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="LeftLittleFinger">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightThumb">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightForeFinger">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightMiddleFinger">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightRingFinger">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+			<li Name="RightLittleFinger">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Base_Bone" Levels="1,9,25,81,999"/>
+				</Labels>
+			</li>
+		</Parts>
+		
+		<Levels>
+			<li>
+				<Title>第一重</Title>
+				<Desc>少量提高进攻能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Bone_LV1</Modifier>
+				<SuperPartProperties>
+					<li Name="AtkPower" BAddV="63"/>
+					<li Name="AtkRate" AddV="0.06"/>
+					<li Name="ArmorPenetration" AddV="0.06"/>
+					<li Name="CatchFabao" AddV="0.06"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第二重</Title>
+				<Desc>中量提高进攻能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Bone_LV2</Modifier>
+				<SuperPartProperties>
+					<li Name="AtkPower" BAddV="250"/>
+					<li Name="AtkRate" AddV="0.13"/>
+					<li Name="ArmorPenetration" AddV="0.13"/>
+					<li Name="CatchFabao" AddV="0.13"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第三重</Title>
+				<Desc>大量提高进攻能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Bone_LV3</Modifier>
+				<SuperPartProperties>
+					<li Name="AtkPower" BAddV="2000"/>
+					<li Name="AtkRate" AddV="0.25"/>
+					<li Name="ArmorPenetration" AddV="0.25"/>
+					<li Name="CatchFabao" AddV="0.25"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第四重</Title>
+				<Desc>巨量提高进攻能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Bone_LV4</Modifier>
+				<SuperPartProperties>
+					<li Name="AtkPower" BAddV="32000"/>
+					<li Name="AtkRate" AddV="0.5"/>
+					<li Name="ArmorPenetration" AddV="0.5"/>
+					<li Name="CatchFabao" AddV="0.5"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第五重</Title>
+				<Desc>海量提高进攻能力</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Bone_LV5</Modifier>
+				<SuperPartProperties>
+					<li Name="AtkPower" BAddV="1024000"/>
+					<li Name="AtkRate" AddV="1.0"/>
+					<li Name="ArmorPenetration" AddV="1.0"/>
+					<li Name="CatchFabao" AddV="1.0"/>
+				</SuperPartProperties>
+			</li>
+		</Levels>
+	</Def>	
+
+	<Def Name="SuperPart_SuperHuman_3"><!--测试秘体-->
+		<Prefix>元始</Prefix>
+		<Suffix>妙身</Suffix>
+		<Desc>五行归一，混沌无极，炁成大海，生生不息</Desc>
+		<EquptAdvise>Effect</EquptAdvise>
+		<AtkAni></AtkAni>
+		<DefAni></DefAni>
+		<AtkEffect></AtkEffect>
+		<DefEffect></DefEffect>
+		<Parts>
+			<li Name="Brain">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Brain" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="LeftEye">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Eye" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="RightEye">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Eye" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="LeftEar">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Ear" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="RightEar">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Ear" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Nose">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Nose" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Mouth">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Mouth" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Throat">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Throat" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Heart">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Heart" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Liver">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Liver" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Spleen">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Spleen" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Lung">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Lung" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Kidney">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Kidney" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Stomach">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Stomach" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+			<li Name="Intestines">
+				<Labels>
+					<li Name="QuenchingLabel_Lv0_Intestines" Levels="1,4,16,64,100"/>
+				</Labels>
+			</li>
+		</Parts>
+		
+		<Levels>
+			<li>
+				<Title>第一重</Title>
+				<Desc>少量提高五行抵抗与真炁回复</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Organ_LV1</Modifier>
+				<SuperPartProperties>
+					<li Name="ResistanceJin" AddV="0.06"/>
+					<li Name="ResistanceMu" AddV="0.06"/>
+					<li Name="ResistanceShui" AddV="0.06"/>
+					<li Name="ResistanceHuo" AddV="0.06"/>
+					<li Name="ResistanceTu" AddV="0.06"/>
+					<li Name="RecoverQi" AddV="63"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第二重</Title>
+				<Desc>中量提高五行抵抗与真炁回复</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Organ_LV2</Modifier>
+				<SuperPartProperties>
+					<li Name="ResistanceJin" AddV="0.13"/>
+					<li Name="ResistanceMu" AddV="0.13"/>
+					<li Name="ResistanceShui" AddV="0.13"/>
+					<li Name="ResistanceHuo" AddV="0.13"/>
+					<li Name="ResistanceTu" AddV="0.13"/>
+					<li Name="RecoverQi" AddV="250"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第三重</Title>
+				<Desc>大量提高五行抵抗与真炁回复</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Organ_LV3</Modifier>
+				<SuperPartProperties>
+					<li Name="ResistanceJin" AddV="0.25"/>
+					<li Name="ResistanceMu" AddV="0.25"/>
+					<li Name="ResistanceShui" AddV="0.25"/>
+					<li Name="ResistanceHuo" AddV="0.25"/>
+					<li Name="ResistanceTu" AddV="0.25"/>
+					<li Name="RecoverQi" AddV="2000"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第四重</Title>
+				<Desc>巨量提高五行抵抗与真炁回复</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Organ_LV4</Modifier>
+				<SuperPartProperties>
+					<li Name="ResistanceJin" AddV="0.5"/>
+					<li Name="ResistanceMu" AddV="0.5"/>
+					<li Name="ResistanceShui" AddV="0.5"/>
+					<li Name="ResistanceHuo" AddV="0.5"/>
+					<li Name="ResistanceTu" AddV="0.5"/>
+					<li Name="RecoverQi" AddV="32000"/>
+				</SuperPartProperties>
+			</li>
+			<li>
+				<Title>第五重</Title>
+				<Desc>海量提高五行抵抗与真炁回复</Desc>
+				<Modifier>Modifier_SuperPart_SuperHuman_Organ_LV5</Modifier>
+				<SuperPartProperties>
+					<li Name="ResistanceJin" AddV="1.0"/>
+					<li Name="ResistanceMu" AddV="1.0"/>
+					<li Name="ResistanceShui" AddV="1.0"/>
+					<li Name="ResistanceHuo" AddV="1.0"/>
+					<li Name="ResistanceTu" AddV="1.0"/>
+					<li Name="RecoverQi" AddV="1024000"/>
+				</SuperPartProperties>
+			</li>
+		</Levels>
+	</Def>	
+</List></BPSuperPartDefs>

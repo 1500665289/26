@@ -1,0 +1,15 @@
+﻿<Experiences><List>
+	<Experience Name="Experiences_72">
+		<DisplayName>玉虚传承</DisplayName>
+		<Desc>你是玉虚宫传人，成年后记忆觉醒，自然获得《八九玄功》的传承。\n\n\n[size=10]解锁功法：[color=#D06508]《八九玄功》[/color]\n此功法为体修功法，注意谨慎选择。[/size]</Desc>
+		<Point>1</Point>
+		<RaceKind>Human</RaceKind>
+		<Gongs>
+			<li>Body_Gong_72</li>
+		</Gongs>
+
+		<Items>
+			<li Name= "Item_Yao_BoarMeat" Count="1000"/>
+		</Items>	
+	</Experience>	
+</List></Experiences>

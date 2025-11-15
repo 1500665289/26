@@ -1,0 +1,25 @@
+<Stories><List>	
+<Story Name="Secret_Gong_72"  Parent="BaseFillingStory">
+		<DisplayName>玉虚遗脉</DisplayName>
+		<Desc>[NAME]循着梦境来到南屏村，只见村后山中果然有一尊清源妙道真君泥像。按梦境所言，只需诚心叩首三下，便可入玉虚门下，得元始嫡传。</Desc>
+		<Selections>
+			<li>
+				<Display>叩首三下</Display> 
+				<OKResult>
+				me:AddMsg("[NAME]在泥像前恭恭敬敬叩首三下，泥像中突然射出一道奇光直入[NAME]灵台，只听一道朦朦胧胧的声音说道：天地大变，吾苟延残喘于此，今传汝本门【八九玄功】，望汝以此一统本界，再兴玉虚……")
+				me:UnLockGong("Body_Gong_72")
+				story:FinishSecret();
+				</OKResult>
+			</li>
+			<li>
+				<Display>转身离开</Display>
+				<OKResult>	
+				me:AddMsg("[NAME]想了想，爷这一生不跪天不跪地，转身离去。");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+
+
+</List></Stories>

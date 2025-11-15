@@ -1,0 +1,173 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Organ_LV1" Type="Normal">
+		<DisplayName>元始妙身1</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="1"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="1"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-10"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Organ_LV2" Type="Normal">
+		<DisplayName>元始妙身2</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="2"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="2"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-20"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Organ_LV3" Type="Normal">
+		<DisplayName>元始妙身3</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="3"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="3"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-30"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Organ_LV4" Type="Normal">
+		<DisplayName>元始妙身4</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="4"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="4"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-40"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Organ_LV5" Type="Normal">
+		<DisplayName>元始妙身5</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="5"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="5"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-100"/>
+		</Properties>
+	</Modifier>
+>
+	
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Bone_LV1" Type="Normal">
+		<DisplayName>金刚琉璃骨1</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="5"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="5"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-99.9"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Bone_LV2" Type="Normal">
+		<DisplayName>金刚琉璃骨2</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="15"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="15"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-299.7"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Bone_LV3" Type="Normal">
+		<DisplayName>金刚琉璃骨3</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="25"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="25"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-499.5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Bone_LV4" Type="Normal">
+		<DisplayName>金刚琉璃骨4</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="55"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="55"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-699.3"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Bone_LV5" Type="Normal">
+		<DisplayName>金刚琉璃骨5</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="85"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="85"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-1698.3"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Flesh_LV1" Type="Normal">
+		<DisplayName>不灭道体1</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="5"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="5"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-99.9"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Flesh_LV2" Type="Normal">
+		<DisplayName>不灭道体2</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="10"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="10"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-199.8"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Flesh_LV3" Type="Normal">
+		<DisplayName>不灭道体3</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="15"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="15"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-299.7"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Flesh_LV4" Type="Normal">
+		<DisplayName>不灭道体4</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="20"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="20"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-399.6"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_SuperPart_SuperHuman_Flesh_LV5" Type="Normal">
+		<DisplayName>不灭道体5</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Properties>  
+			<li Name="BodyPratice_BodyStrong" AddV="50"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="50"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-999"/>
+		</Properties>
+	</Modifier>
+
+</List></ModifierDefs>
